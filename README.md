@@ -8,6 +8,7 @@ A case and internal battery mod for the [shieldXl](https://github.com/okyeron/sh
 
 | Table of Contents |
 | - |
+| Credits |
 | Use |
 | BOM |
 | Case |
@@ -15,6 +16,12 @@ A case and internal battery mod for the [shieldXl](https://github.com/okyeron/sh
 | Troubleshooting |
 
 ![shieldXl_battery 2](images/.jpg)
+
+## Credits
+
+Referenced model was designed by CarlosUnch, John Park and Steven Noreyko.
+
+Project inspiration from Peter Kassel
 
 ## Use
 
@@ -41,13 +48,11 @@ Internals
 
 ![case internals 2](images/.jpg)
 
-### Printing
-
-Tested with PLA on a Prusa MK3 and Prusa MK4.
-
-### Development
+### Models & Printing
 
 STL made in reference to the original shieldXl case. shieldXl_battery design was made with [Blender](https://www.blender.org/) and [CAD Sketcher](https://www.cadsketcher.com/).
+
+Tested with PLA on a Prusa MK3 and Prusa MK4.
 
 ## Installation
 
