@@ -24,7 +24,7 @@ A case and internal battery mod for the [shieldXl](https://github.com/okyeron/sh
 ## BOM
 
 * 1x assembled shieldxl ([The BOM](https://github.com/okyeron/shieldXL/tree/main/bom) is available on the shieldXl GitHub and kits are sometimes available at the [Denki Oto Shop](https://denki-oto.weebly.com/))
-* 1x Pisugar S Plus battery assembly
+* 1x Pisugar S Plus battery assembly (5000mAh 5 volt 3 amp)
 * 1x pig tail JST-PH 2.0 female header
 * 4x M2.5 hex nuts
 * 2x 20mm M2.5 screws
