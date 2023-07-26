@@ -1,4 +1,4 @@
-# shieldXl-battery
+# shieldXl_battery
 
 A case and internal battery mod for the [shieldXl](https://github.com/okyeron/shieldXL/blob/main/LICENSE.txt)
 
@@ -8,6 +8,7 @@ A case and internal battery mod for the [shieldXl](https://github.com/okyeron/sh
 
 | Table of Contents |
 | - |
+| Credits |
 | Use |
 | BOM |
 | Case |
@@ -15,6 +16,12 @@ A case and internal battery mod for the [shieldXl](https://github.com/okyeron/sh
 | Troubleshooting |
 
 ![shieldXl_battery 2](images/.jpg)
+
+## Credits
+
+Referenced model was designed by CarlosUnch, John Park and Steven Noreyko.
+
+Project inspiration from Peter Kassel
 
 ## Use
 
@@ -41,13 +48,15 @@ Internals
 
 ![case internals 2](images/.jpg)
 
-### Development
+### Models & Printing
 
-STL made in reference to the original shieldXl case. shieldXl_battery was made with [Blender](https://www.blender.org/) and [CAD Sketcher](https://www.cadsketcher.com/).
+STL made in reference to the original shieldXl case. shieldXl_battery design was made with [Blender](https://www.blender.org/) and [CAD Sketcher](https://www.cadsketcher.com/).
+
+Tested with PLA on a Prusa MK3 and Prusa MK4.
 
 ## Installation
 
-*PREFACE: Assemble the mod outside of the case to verify things are working before attempting to install the assembly into the case.*
+*!!Assemble the battery outside of the case and boot the device to verify things are working before attempting to install the assembly into the case!!*
 
 *NOTE: The original battery header can be left on the pisugar. If being as slim as possible is your jam, the original header can be removed and there is a modified bottom case part that is shallower.*
 
@@ -70,11 +79,11 @@ STL made in reference to the original shieldXl case. shieldXl_battery was made w
 
 ![pisugar mounting screws](images/.jpg)
 
-6. Place the shieldXl ontop of the pisugar, ensure that the spring loaded pins on the pisugar press into the back of the pins on the raspberry pi board. (A good amount of force will be needed to get the pi sugar flush with the raspberry pi board)
+6. Place the shieldXl on top of the pisugar, ensure that the spring loaded pins on the pisugar press into the back of the gpio pins on the pi board. (A good amount of force will be needed to get the pi sugar flush with the pi)
 
 ![pisugar pin connection](images/.jpg)
 
-7. Finish screwing in the M2.5 screws through the raspberry pi and into the standoffs between the shieldXl pcba and pi board.
+7. Finish screwing in the M2.5 screws through the pi and into the standoffs between the shieldXl pcba and pi board.
 8. Align and gentily press the top case part onto the shieldXl.
 9. Attach the washers and nuts to the encoders.
 
