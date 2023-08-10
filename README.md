@@ -54,6 +54,11 @@ STL made in reference to the original shieldXl case. shieldXl_battery design was
 
 Tested with PLA on a Prusa MK3 and Prusa MK4.
 
+There are two flavors of the case; destructive and non-destructive.
+
+* The non-destructive case is slightly larger and can accomodate a stock pi/shieldxl kit with no modifications.
+* The destructive case is slightly narrower but requires removing or cuting the unused IO on the pi and pi sugar. *DO THIS AT YOUR OWN RISK, DENKI OTO and I ARE NOT LIABLE IF THE MODIFICATION CAUSES THE PI TO NOT FUNCTION CORRECTLY*
+
 ## Installation
 
 *!!Assemble the battery outside of the case and boot the device to verify things are working before attempting to install the assembly into the case!!*
@@ -67,13 +72,13 @@ Tested with PLA on a Prusa MK3 and Prusa MK4.
 
 ![pig tail power assembly 2](images/.jpg)
 
-2. Set the battery into the compartment on the bottom case part and attach the battery arm with 1 M2.5x10mm, 1 M2.5x8mm, and 2 M2.5 nuts.
+2. Set the battery into the compartment on the bottom case part and attach the battery arm with 2 `M2.5x10mm`, and 2 `M2.5` nuts.
 3. Connect the battery.
-4. Rest the pisugar pcba on the bottom case part with the power header side facing down.
+4. Rest the pisugar pcba on the bottom case with the power header side facing down.
 
 ![pisugar resting in case](images/.jpg)
 
-5. Start threading 3 M2.5x8mm screws into the pisugar from the bottom of the case
+5. Start threading 3 M2.5x8mm screws into the pisugar from the bottom of the case. The right two screws can be threaded all the way through the pi sugar but the screw nearest the battery should be threaded flush with the top of the pi sugar standoff.
 
 *Thread the screws through the pcba with ~1mm of thread sticking out of the top. To ensure a close fit with the raspberry pi board, the screws shouldn't stick out too much before adding the shieldXl assembly ontop.*
 
