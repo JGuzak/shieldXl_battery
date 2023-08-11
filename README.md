@@ -54,16 +54,18 @@ STL made in reference to the original shieldXl case. shieldXl_battery design was
 
 Tested with PLA on a Prusa MK3 and Prusa MK4.
 
-There are two flavors of the case; destructive and non-destructive.
+There are two flavors of the case; normal and hardcore.
 
-* The non-destructive case is slightly larger and can accomodate a stock pi/shieldxl kit with no modifications.
-* The destructive case is slightly narrower but requires removing or cuting the unused IO on the pi and pi sugar. *DO THIS AT YOUR OWN RISK, DENKI OTO and I ARE NOT LIABLE IF THE MODIFICATION CAUSES THE PI TO NOT FUNCTION CORRECTLY*
+* The normal case has a rectangle cutout on the side for all of the IO and can accomodate a stock pi/shieldxl kit with no modifications.
+* The hardcore case has only TRS midi, usb charging, and power switches on the side but requires removing or cuting the unused IO on the pi and pi sugar. *DO THIS AT YOUR OWN RISK, DENKI OTO and I ARE NOT LIABLE IF YOUR PI BREAKS DURING OR AFTER THIS MODIFICATION.*
 
 ## Installation
 
-*!!Assemble the battery outside of the case and boot the device to verify things are working before attempting to install the assembly into the case!!*
+*!!Assemble the battery and shieldxl outside of the case and boot the device to verify things are working before attempting to install the assembly into the case!!*
 
-*NOTE: The original battery header can be left on the pisugar. If being as slim as possible is your jam, the original header can be removed and there is a modified bottom case part that is shallower.*
+If video instructions are more your speed, check out the assembly video over on my youtube channel [here]().
+
+*NOTE: The original battery header can be left on the pisugar.*
 
 1. Disconnect the battery from the pisugar pcba.
 2. Carefully solder the leads of the JST pigtail to the contacts on the pisugar pcba.
