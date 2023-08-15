@@ -54,10 +54,10 @@ STL made in reference to the original shieldXl case. shieldXl_battery design was
 
 Tested with PLA on a Prusa MK3 and Prusa MK4.
 
-There are two flavors of the case; normal and hardcore.
+There are two flavors of the case; `plus` and `plusplus`.
 
-* The normal case has a rectangle cutout on the side for all of the IO and can accomodate a stock pi/shieldxl kit with no modifications.
-* The hardcore case has only TRS midi, usb charging, and power switches on the side but requires removing or cuting the unused IO on the pi and pi sugar. *DO THIS AT YOUR OWN RISK, DENKI OTO and I ARE NOT LIABLE IF YOUR PI BREAKS DURING OR AFTER THIS MODIFICATION.*
+* The `plus` case has a rectangle cutout on the side for all of the IO and can accomodate a stock pi/shieldxl kit with no modifications.
+* The `plusplus` case has only TRS midi, usb charging, and a power switch on the side but requires permiently removing some IO on the pi. *DO THIS AT YOUR OWN RISK, DENKI OTO and I ARE NOT LIABLE IF YOUR PI BREAKS DURING OR AFTER THIS MODIFICATION.*
 
 ## Installation
 
@@ -67,36 +67,41 @@ If video instructions are more your speed, check out the assembly video over on 
 
 *NOTE: The original battery header can be left on the pisugar.*
 
-1. Disconnect the battery from the pisugar pcba.
-2. Carefully solder the leads of the JST pigtail to the contacts on the pisugar pcba.
+1. Remove the pi from the shieldxl pcba
+2. Remove all standoffs from the shieldxl except for the lower middle standoff that is under the lower right corner of the display.
+
+![removed standoffs](images/.jpg)
+
+3. Disconnect the battery from the pisugar pcba.
+4. Carefully solder the leads of the JST pigtail to the contacts on the pisugar pcba.
 
 ![pig tail power assembly 1](images/.jpg)
 
 ![pig tail power assembly 2](images/.jpg)
 
-2. Set the battery into the compartment on the bottom case part and attach the battery arm with 2 `M2.5x10mm`, and 2 `M2.5` nuts.
-3. Connect the battery.
-4. Rest the pisugar pcba on the bottom case with the power header side facing down.
+5. Set the battery into the compartment on the bottom case part and attach the battery arm with 2 `M2.5x10mm`, and 2 `M2.5` nuts.
+6. Connect the battery to the pig tail adapter.
+7. Set the pisugar pcba on the bottom case with the power header side facing down.
 
-![pisugar resting in case](images/.jpg)
+![pisugar in case](images/.jpg)
 
-5. Start threading 3 M2.5x8mm screws into the pisugar from the bottom of the case. The right two screws can be threaded all the way through the pi sugar but the screw nearest the battery should be threaded flush with the top of the pi sugar standoff.
+8. Thread 2 M2.5x8mm screws into the two right most  from the bottom of the case. The right two screws can be threaded all the way through the pi sugar but the screw nearest the battery should be threaded flush with the top of the pi sugar standoff.
 
 *Thread the screws through the pcba with ~1mm of thread sticking out of the top. To ensure a close fit with the raspberry pi board, the screws shouldn't stick out too much before adding the shieldXl assembly ontop.*
 
 ![pisugar mounting screws](images/.jpg)
 
-6. Place the shieldXl on top of the pisugar, ensure that the spring loaded pins on the pisugar press into the back of the gpio pins on the pi board. (A good amount of force will be needed to get the pi sugar flush with the pi)
+9. Place the shieldXl on top of the pisugar, ensure that the spring loaded pins on the pisugar press into the back of the gpio pins on the pi board. (A good amount of force will be needed to get the pi sugar flush with the pi)
 
 ![pisugar pin connection](images/.jpg)
 
-7. Finish screwing in the M2.5 screws through the pi and into the standoffs between the shieldXl pcba and pi board.
-8. Align and gentily press the top case part onto the shieldXl.
-9. Attach the washers and nuts to the encoders.
+10. Finish screwing in the M2.5 screws through the pi and into the standoffs between the shieldXl pcba and pi board.
+11. Align and gentily press the top case part onto the shieldXl.
+12. Attach the washers and nuts to the encoders.
 
 ![case encoder nuts](images/.jpg)
 
-10. From the bottom of the case, attach the final 2 M2.5x20mm screws
+13. From the bottom of the case, attach the final 2 M2.5x20mm screws
 
 ![case final screws](images/.jpg)
 
