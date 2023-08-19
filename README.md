@@ -106,11 +106,10 @@ If video instructions are more your speed, check out the assembly video over on 
 8. Set the pisugar pcba on the bottom case with the power header side facing down.
 9. Thread `3` 16mm bolts into the pisugar pcba from the bottom of the case. The bolts should be threaded all the way through the case and the pi sugar.
 
-<img src="images/bottom_case_screws.JPG" width=49%>
 <img src="images/pi_sugar_in_case.JPG" width=49%>
 
-10. Place the pi on top of the pisugar, ensure that the spring loaded pins on the pisugar press into the back of the gpio pins on the pi board. (A good amount of force will be needed to get the pi sugar flush with the pi)
-11. Thread the `3` standoffs up to the pi. Ensure there are no gaps between the case, pisugar, pi, or standoffs.
+1.  Place the pi on top of the pisugar, ensure that the spring loaded pins on the pisugar press into the back of the gpio pins on the pi board. (A good amount of force will be needed to get the pi sugar flush with the pi)
+2.  Thread the `3` standoffs up to the pi. Ensure there are no gaps between the case, pisugar, pi, or standoffs.
 
 <img src="images/pi_in_case.JPG" width=49%>
 
