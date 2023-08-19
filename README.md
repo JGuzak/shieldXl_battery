@@ -15,7 +15,7 @@ A case and internal battery mod for the [shieldXl](https://github.com/okyeron/sh
 | Installation |
 | Troubleshooting |
 
-<img src="images/promo_2.jpg" width=100%>
+<img src="images/promo_2.jpg" width=60%>
 
 ## Credits
 
@@ -25,12 +25,11 @@ Project inspiration from Peter Kassel
 
 ## Use
 
-1. Toggle the power switch to turn on the battery `-> *` (Blue light will illuminate)
-2. Press and hold the power button `0` (When the green light is stable, release the button)
+Toggle the power switch to turn on the battery (Blue light will illuminate)
 
 ## BOM
 
-<img src="images/bom.jpg" width=100%>
+<img src="images/bom.jpg" width=80%>
 
 * 1x assembled shieldxl `*` ([bom](https://github.com/okyeron/shieldXL/tree/main/bom) for the shieldXl is available over on GitHub and kits are available at the [Denki Oto Shop](https://denki-oto.weebly.com/))
 * 1x Pisugar S Plus battery assembly (5000mAh 5 volt 3 amp)
@@ -116,12 +115,15 @@ If video instructions are more your speed, check out the assembly video over on 
 <img src="images/pi_in_case.jpg" width=49%>
 
 12. Carefully align and gentily press the shieldXl pcba onto the pi.
-13. Thread the 9mm bolt through the bottom right corner of the display and into the standoff.
-14. Carefully align and gentily press the case top onto the shieldXl. First align the left side of the case and push to the right.
-15. Thread the `2` 20mm bolts into the left holes on the top of the case.
-16. Thread the `2` remaining 12mm bolts into the right holes on the top of the case.
-17. Place the `3` washers and nuts onto the encoders and tighten by hand.
-18. Insert the micro sd card into the pi.
+
+<img src="images/shieldXl_in_case.jpg" width=49%>
+
+1.  Thread the 9mm bolt through the bottom right corner of the display and into the standoff.
+2.  Carefully align and gentily press the case top onto the shieldXl. First align the left side of the case and push to the right.
+3.  Thread the `2` 20mm bolts into the left holes on the top of the case.
+4.  Thread the `2` remaining 12mm bolts into the right holes on the top of the case.
+5.  Place the `3` washers and nuts onto the encoders and tighten by hand.
+6.  Insert the micro sd card into the pi.
 
 <img src="images/assembled_1.jpg" width=49%>
 
