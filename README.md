@@ -2,7 +2,7 @@
 
 A case and internal battery mod for the [shieldXl](https://github.com/okyeron/shieldXL/blob/main/LICENSE.txt)
 
-<img src="images/promo_1.jpg" width=100%>
+<img src="images/promo_1.JPG" width=100%>
 
 *DISCLAIMER: This mod is not supported by Denki Oto and they are not responsible for assisting with assembly or troubleshooting.*
 
@@ -15,7 +15,7 @@ A case and internal battery mod for the [shieldXl](https://github.com/okyeron/sh
 | Installation |
 | Troubleshooting |
 
-<img src="images/promo_2.jpg" width=60%>
+<img src="images/promo_2.JPG" width=60%>
 
 ## Credits
 
@@ -29,7 +29,7 @@ Toggle the power switch to turn on the battery (Blue light will illuminate)
 
 ## BOM
 
-<img src="images/bom.jpg" width=80%>
+<img src="images/bom.JPG" width=80%>
 
 * 1x assembled shieldxl `*` ([bom](https://github.com/okyeron/shieldXL/tree/main/bom) for the shieldXl is available over on GitHub and kits are available at the [Denki Oto Shop](https://denki-oto.weebly.com/))
 * 1x Pisugar S Plus battery assembly (5000mAh 5 volt 3 amp)
@@ -50,8 +50,8 @@ Toggle the power switch to turn on the battery (Blue light will illuminate)
 
 ## Case
 
-<img src="images/bare_case_1.jpg" width=49%>
-<img src="images/bare_case_2.jpg" width=49%>
+<img src="images/bare_case_1.JPG" width=49%>
+<img src="images/bare_case_2.JPG" width=49%>
 
 ### Models & Printing
 
@@ -76,8 +76,8 @@ gcode and prusa slicer files can be found in `/prints`, stls in `/models`. Teste
 6. Ensure the dip switch on the bottom of the pi sugar board is set to `off`
 7. Plug in the pi sugar to a charger (both usb-c and usb micro ports will charge the battery)
 
-<img src="images/assembled_no_case_running.jpg" width=49%>
-<img src="images/startup_dip_switch.jpg" width=49%>
+<img src="images/assembled_no_case_running.JPG" width=49%>
+<img src="images/startup_dip_switch.JPG" width=49%>
 
 ### Case Installation
 
@@ -87,7 +87,7 @@ If video instructions are more your speed, check out the assembly video over on 
 
 1. Press `2` nuts into the slots on the posts of the bottom half of the case
 
-<img src="images/bottom_case_nuts.jpg" width=49%>
+<img src="images/bottom_case_nuts.JPG" width=49%>
 
 2. Remove the pi from the shieldxl pcba
 3. Remove `all` standoffs from the shieldxl except for the bolt/nut through the upper right corner of the display.
@@ -96,27 +96,27 @@ If video instructions are more your speed, check out the assembly video over on 
 
 *I chose to remove it because I may attempt to create a slightly thinner bottom portion of the case but this may not happen.*
 
-<img src="images/pigtail.jpg" width=49%>
+<img src="images/pigtail.JPG" width=49%>
 
 6. Set the battery into the compartment on the bottom case part and attach the battery arm with `2` 10mm bolts and `2` nuts.
 
-<img src="images/battery_in_case.jpg" width=49%>
+<img src="images/battery_in_case.JPG" width=49%>
 
 7. Connect the battery to the pig tail adapter.
 8. Set the pisugar pcba on the bottom case with the power header side facing down.
 9. Thread `3` 16mm bolts into the pisugar pcba from the bottom of the case. The bolts should be threaded all the way through the case and the pi sugar.
 
-<img src="images/bottom_case_screws.jpg" width=49%>
-<img src="images/pi_sugar_in_case.jpg" width=49%>
+<img src="images/bottom_case_screws.JPG" width=49%>
+<img src="images/pi_sugar_in_case.JPG" width=49%>
 
 10. Place the pi on top of the pisugar, ensure that the spring loaded pins on the pisugar press into the back of the gpio pins on the pi board. (A good amount of force will be needed to get the pi sugar flush with the pi)
 11. Thread the `3` standoffs up to the pi. Ensure there are no gaps between the case, pisugar, pi, or standoffs.
 
-<img src="images/pi_in_case.jpg" width=49%>
+<img src="images/pi_in_case.JPG" width=49%>
 
 12. Carefully align and gentily press the shieldXl pcba onto the pi.
 
-<img src="images/shieldXl_in_case.jpg" width=49%>
+<img src="images/shieldXl_in_case.JPG" width=49%>
 
 1.  Thread the 9mm bolt through the bottom right corner of the display and into the standoff.
 2.  Carefully align and gentily press the case top onto the shieldXl. First align the left side of the case and push to the right.
@@ -125,7 +125,7 @@ If video instructions are more your speed, check out the assembly video over on 
 5.  Place the `3` washers and nuts onto the encoders and tighten by hand.
 6.  Insert the micro sd card into the pi.
 
-<img src="images/assembled_1.jpg" width=49%>
+<img src="images/assembled_1.JPG" width=49%>
 
 ## Troubleshooting
 
