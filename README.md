@@ -57,10 +57,7 @@ Toggle the power switch to turn on the battery (Blue light will illuminate)
 
 STL made in reference to the original shieldXl case. shieldXl_battery design was made with [Blender](https://www.blender.org/) and [CAD Sketcher](https://www.cadsketcher.com/).
 
-gcode and prusa slicer files can be found in `/prints`, stls in `/models`. Tested with PLA on Prusa MK3 and Prusa MK4 printers. There are two flavors of the case; `shieldXl_battery` and `plusplus`.
-
-* The `shieldXl_battery` case has a rectangle cutout on the side for all of the IO and can accomodate a stock pi/shieldxl kit with no modifications.
-* The `plusplus` case has only TRS midi, usb charging, and a power switch on the side but requires permiently removing some IO on the pi. *DO THIS AT YOUR OWN RISK, DENKI OTO and I ARE NOT LIABLE IF YOUR PI BREAKS DURING OR AFTER THIS MODIFICATION.*
+gcode and prusa slicer files can be found in `/prints`, stls in `/models`. Tested with PLA on Prusa MK3 and Prusa MK4 printers.
 
 ## Assembly
 
@@ -80,8 +77,6 @@ gcode and prusa slicer files can be found in `/prints`, stls in `/models`. Teste
 <img src="images/startup_dip_switch.JPG" width=49%>
 
 ### Case Installation
-
-If video instructions are more your speed, check out the assembly video over on my youtube channel [here]().
 
 *NOTE: The original battery header can be left on the pisugar.*
 
