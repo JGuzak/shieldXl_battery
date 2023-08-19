@@ -2,7 +2,7 @@
 
 A case and internal battery mod for the [shieldXl](https://github.com/okyeron/shieldXL/blob/main/LICENSE.txt)
 
-![shieldXl_battery 1](images/.jpg)
+<img src="images/promo_1.JPG" width=100%>
 
 *DISCLAIMER: This mod is not supported by Denki Oto and they are not responsible for assisting with assembly or troubleshooting.*
 
@@ -15,7 +15,7 @@ A case and internal battery mod for the [shieldXl](https://github.com/okyeron/sh
 | Installation |
 | Troubleshooting |
 
-![shieldXl_battery 2](images/.jpg)
+<img src="images/promo_2.JPG" width=60%>
 
 ## Credits
 
@@ -25,84 +25,109 @@ Project inspiration from Peter Kassel
 
 ## Use
 
-1. Toggle the power switch to turn on the battery `-> *` (Blue light will illuminate)
-2. Press and hold the power button `0` (When the green light is stable, release the button)
+Toggle the power switch to turn on the battery (Blue light will illuminate)
 
 ## BOM
 
-* 1x assembled shieldxl ([The BOM](https://github.com/okyeron/shieldXL/tree/main/bom) is available on the shieldXl GitHub and kits are sometimes available at the [Denki Oto Shop](https://denki-oto.weebly.com/))
+<img src="images/bom.JPG" width=80%>
+
+* 1x assembled shieldxl `*` ([bom](https://github.com/okyeron/shieldXL/tree/main/bom) for the shieldXl is available over on GitHub and kits are available at the [Denki Oto Shop](https://denki-oto.weebly.com/))
 * 1x Pisugar S Plus battery assembly (5000mAh 5 volt 3 amp)
+* 1x shieldXl_battery case (see Models & Printing)
 * 1x pig tail JST-PH 2.0 female header
+* M2.5 bolts
+  * 2x 20mm
+  * 3x 16mm
+  * 2x 12mm
+  * 2x 10mm
+  * 1x 9mm `*`
 * 4x M2.5 hex nuts
-* 2x 20mm M2.5 screws
+* 3x M2.5 11mm f-f standoffs `*`
+* 3x encoder nuts + washers `*`
+* 3x encoder caps
+
+*Items marked with a `*` are included in the full shieldXl kit.*
 
 ## Case
 
-![assembled mod 1](images/.jpg)
-
-![assembled mod 1](images/.jpg)
-
-Internals
-
-![case internals 1](images/.jpg)
-
-![case internals 2](images/.jpg)
+<img src="images/bare_case_1.JPG" width=49%>
+<img src="images/bare_case_2.JPG" width=49%>
 
 ### Models & Printing
 
 STL made in reference to the original shieldXl case. shieldXl_battery design was made with [Blender](https://www.blender.org/) and [CAD Sketcher](https://www.cadsketcher.com/).
 
-Tested with PLA on a Prusa MK3 and Prusa MK4.
+gcode and prusa slicer files can be found in `/prints`, stls in `/models`. Tested with PLA on Prusa MK3 and Prusa MK4 printers. There are two flavors of the case; `shieldXl_battery` and `plusplus`.
 
-There are two flavors of the case; `plus` and `plusplus`.
-
-* The `plus` case has a rectangle cutout on the side for all of the IO and can accomodate a stock pi/shieldxl kit with no modifications.
+* The `shieldXl_battery` case has a rectangle cutout on the side for all of the IO and can accomodate a stock pi/shieldxl kit with no modifications.
 * The `plusplus` case has only TRS midi, usb charging, and a power switch on the side but requires permiently removing some IO on the pi. *DO THIS AT YOUR OWN RISK, DENKI OTO and I ARE NOT LIABLE IF YOUR PI BREAKS DURING OR AFTER THIS MODIFICATION.*
 
-## Installation
+## Assembly
+
+### ShieldXl+piSugar
 
 *!!Assemble the battery and shieldxl outside of the case and boot the device to verify things are working before attempting to install the assembly into the case!!*
+
+1. Assemble the shieldXl
+2. Using a guitar pick or similar plastic device, carefully remove the battery from both the li-po battery pack and pi sugar pcba
+3. Place the pi sugar pcba against the bottom of the pi, make sure the spring loaded pin contacts are seated correctly.
+4. Using the bolts included with the pisugar, attach the pisugar to the pi
+5. Connect the battery to the pisugar pcba
+6. Ensure the dip switch on the bottom of the pi sugar board is set to `off`
+7. Plug in the pi sugar to a charger (both usb-c and usb micro ports will charge the battery)
+
+<img src="images/assembled_no_case_running.JPG" width=49%>
+<img src="images/startup_dip_switch.JPG" width=49%>
+
+### Case Installation
 
 If video instructions are more your speed, check out the assembly video over on my youtube channel [here]().
 
 *NOTE: The original battery header can be left on the pisugar.*
 
-1. Remove the pi from the shieldxl pcba
-2. Remove all standoffs from the shieldxl except for the lower middle standoff that is under the lower right corner of the display.
+1. Press `2` nuts into the slots on the posts of the bottom half of the case
 
-![removed standoffs](images/.jpg)
+<img src="images/bottom_case_nuts.JPG" width=49%>
 
-3. Disconnect the battery from the pisugar pcba.
-4. Carefully solder the leads of the JST pigtail to the contacts on the pisugar pcba.
+2. Remove the pi from the shieldxl pcba
+3. Remove `all` standoffs from the shieldxl except for the bolt/nut through the upper right corner of the display.
+4. Disconnect the battery from the pisugar pcba.
+5. Carefully solder the leads of the JST pigtail to the contacts on the pisugar pcba. The original jack does not need to be removed.
 
-![pig tail power assembly 1](images/.jpg)
+*I chose to remove it because I may attempt to create a slightly thinner bottom portion of the case but this may not happen.*
 
-![pig tail power assembly 2](images/.jpg)
+<img src="images/pigtail.JPG" width=49%>
 
-5. Set the battery into the compartment on the bottom case part and attach the battery arm with 2 `M2.5x10mm`, and 2 `M2.5` nuts.
-6. Connect the battery to the pig tail adapter.
-7. Set the pisugar pcba on the bottom case with the power header side facing down.
+6. Set the battery into the compartment on the bottom case part and attach the battery arm with `2` 10mm bolts and `2` nuts.
 
-![pisugar in case](images/.jpg)
+<img src="images/battery_in_case.JPG" width=49%>
 
-8. Thread 2 M2.5x8mm screws into the two right most  from the bottom of the case. The right two screws can be threaded all the way through the pi sugar but the screw nearest the battery should be threaded flush with the top of the pi sugar standoff.
+7. Connect the battery to the pig tail adapter.
+8. Set the pisugar pcba on the bottom case with the power header side facing down.
+9. Thread `3` 16mm bolts into the pisugar pcba from the bottom of the case. The bolts should be threaded all the way through the case and the pi sugar.
 
-*Thread the screws through the pcba with ~1mm of thread sticking out of the top. To ensure a close fit with the raspberry pi board, the screws shouldn't stick out too much before adding the shieldXl assembly ontop.*
+<img src="images/pi_sugar_in_case.JPG" width=49%>
 
-![pisugar mounting screws](images/.jpg)
+1.  Place the pi on top of the pisugar, ensure that the spring loaded pins on the pisugar press into the back of the gpio pins on the pi board. (A good amount of force will be needed to get the pi sugar flush with the pi)
+2.  Thread the `3` standoffs up to the pi. Ensure there are no gaps between the case, pisugar, pi, or standoffs.
 
-9. Place the shieldXl on top of the pisugar, ensure that the spring loaded pins on the pisugar press into the back of the gpio pins on the pi board. (A good amount of force will be needed to get the pi sugar flush with the pi)
+<img src="images/pi_in_case.JPG" width=49%>
 
-![pisugar pin connection](images/.jpg)
+12. Carefully align and gentily press the shieldXl pcba onto the pi.
 
-10. Finish screwing in the M2.5 screws through the pi and into the standoffs between the shieldXl pcba and pi board.
-11. Align and gentily press the top case part onto the shieldXl.
-12. Attach the washers and nuts to the encoders.
+<img src="images/shieldXl_in_case.JPG" width=49%>
 
-![case encoder nuts](images/.jpg)
+1.  Thread the 9mm bolt through the bottom right corner of the display and into the standoff.
+2.  Carefully align and gentily press the case top onto the shieldXl. First align the left side of the case and push to the right.
+3.  Thread the `2` 20mm bolts into the left holes on the top of the case.
+4.  Thread the `2` remaining 12mm bolts into the right holes on the top of the case.
+5.  Place the `3` washers and nuts onto the encoders and tighten by hand.
+6.  Insert the micro sd card into the pi.
 
-13. From the bottom of the case, attach the final 2 M2.5x20mm screws
-
-![case final screws](images/.jpg)
+<img src="images/assembled_1.JPG" width=49%>
 
 ## Troubleshooting
+
+### Battery and red led on pi turns on but norns doesn't boot
+
+Double check that the micro sd card is inserted into the pi correctly.
