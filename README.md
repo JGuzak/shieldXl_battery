@@ -1,6 +1,6 @@
 # shieldXl_battery
 
-A case and internal battery mod for the [shieldXl](https://github.com/okyeron/shieldXL/blob/main/LICENSE.txt)
+A case and internal battery mod for the [shieldXl](https://github.com/okyeron/shieldXL/)
 
 <img src="images/promo_1.JPG" width=100%>
 
