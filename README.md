@@ -41,7 +41,8 @@ Toggle the power switch to turn on the battery (Blue light will illuminate)
   * 2x 12mm
   * 2x 10mm
   * 1x 9mm `*`
-* 4x M2.5 hex nuts
+* 2x M2.5 hex nuts *4x M2.5 hex nuts if using the `bottom with hex nut.stl` file.*
+* 2x M2.5 heat set inserts *None if using the `bottom with hex nut.stl` file.*
 * 3x M2.5 11mm f-f standoffs `*`
 * 3x encoder nuts + washers `*`
 * 3x encoder caps
@@ -80,9 +81,11 @@ gcode and prusa slicer files can be found in `/prints`, stls in `/models`. Teste
 
 *NOTE: The original battery header can be left on the pisugar.*
 
-1. Press `2` nuts into the slots on the posts of the bottom half of the case
+1. Insert either `2` hex nuts or `2` heat set inserts into the bottom portion of the case.
 
 <img src="images/bottom_case_nuts.JPG" width=49%>
+<img src="images/bottom_case_heat_set_inserts.JPG" width=49%>
+
 
 2. Remove the pi from the shieldxl pcba
 3. Remove `all` standoffs from the shieldxl except for the bolt/nut through the upper right corner of the display.
