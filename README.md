@@ -1,10 +1,12 @@
-# shieldXl_battery
+# ShieldXl Battery Case
 
 A case and internal battery mod for the [shieldXl](https://github.com/okyeron/shieldXL/)
 
 <img src="images/promo_1.JPG" width=100%>
 
 *DISCLAIMER: This mod is not supported by Denki Oto and they are not responsible for assisting with assembly or troubleshooting.*
+
+## Kits for this case are available of on the [Modbang shop](https://www.modbang.com/modbang-shop/shieldxlbatterykit).
 
 | Table of Contents |
 | - |
@@ -25,7 +27,7 @@ Project inspiration from Peter Kassel
 
 ## Use
 
-Toggle the power switch to turn on the battery (Blue light will illuminate)
+Toggle the power switch to turn on the battery (Blue light will illuminate and green light should flash)
 
 ## BOM
 
@@ -47,7 +49,7 @@ Toggle the power switch to turn on the battery (Blue light will illuminate)
 * 3x encoder nuts + washers `*`
 * 3x encoder caps
 
-*Items marked with a `*` are included in the full shieldXl kit.*
+*Items marked with `%!` are included in the shieldXl battery kit on the Modbang shop.*
 
 ## Case
 
