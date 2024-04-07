@@ -35,20 +35,21 @@ Toggle the power switch to turn on the battery (Blue light will illuminate and g
 
 * 1x assembled shieldxl `*` ([bom](https://github.com/okyeron/shieldXL/tree/main/bom) for the shieldXl is available over on GitHub and kits are available at the [Denki Oto Shop](https://denki-oto.weebly.com/))
 * 1x Pisugar S Plus battery assembly (5000mAh 5 volt 3 amp)
-* 1x shieldXl_battery case (see Models & Printing)
-* 1x pig tail JST-PH 2.0 female header
+* 1x shieldXl_battery case (see Models & Printing) `%!`
+* 1x pig tail JST-PH 2.0 female header `%!`
 * M2.5 bolts
-  * 2x 20mm
-  * 3x 16mm
-  * 2x 12mm
-  * 2x 10mm
+  * 2x 20mm `%!`
+  * 3x 16mm `%!`
+  * 2x 12mm `%!`
+  * 2x 10mm `%!`
   * 1x 9mm `*`
 * 2x M2.5 hex nuts *4x M2.5 hex nuts if using the `bottom with hex nut.stl` file.*
 * 2x M2.5 heat set inserts *None if using the `bottom with hex nut.stl` file.*
 * 3x M2.5 11mm f-f standoffs `*`
 * 3x encoder nuts + washers `*`
-* 3x encoder caps
+* 3x encoder caps `*`
 
+*Items marked with `*` are included in the shieldXl kit from Denki Oto.*
 *Items marked with `%!` are included in the shieldXl battery kit on the Modbang shop.*
 
 ## Case
