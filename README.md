@@ -24,6 +24,8 @@ A case and internal battery mod for the [shieldXl](https://github.com/okyeron/sh
 Referenced model was designed by CarlosUnch, John Park and Steven Noreyko.
 
 Project inspiration from Peter Kassel
+FAQ/troubleshooting contributions:
+- Moneo
 
 ## Use
 
@@ -33,21 +35,21 @@ Toggle the power switch to turn on the battery (Blue light will illuminate and g
 
 <img src="images/bom.JPG" width=80%>
 
-* 1x assembled shieldxl `*` ([bom](https://github.com/okyeron/shieldXL/tree/main/bom) for the shieldXl is available over on GitHub and kits are available at the [Denki Oto Shop](https://denki-oto.weebly.com/))
-* 1x Pisugar S Plus battery assembly (5000mAh 5 volt 3 amp)
-* 1x shieldXl_battery case (see Models & Printing) `%!`
-* 1x pig tail JST-PH 2.0 female header `%!`
-* M2.5 bolts
-  * 2x 20mm `%!`
-  * 3x 16mm `%!`
-  * 2x 12mm `%!`
-  * 2x 10mm `%!`
-  * 1x 9mm `*`
-* 2x M2.5 hex nuts *4x M2.5 hex nuts if using the `bottom with hex nut.stl` file.*
-* 2x M2.5 heat set inserts *None if using the `bottom with hex nut.stl` file.*
-* 3x M2.5 11mm f-f standoffs `*`
-* 3x encoder nuts + washers `*`
-* 3x encoder caps `*`
+- 1x assembled shieldxl `*` ([bom](https://github.com/okyeron/shieldXL/tree/main/bom) for the shieldXl is available over on GitHub and kits are available at the [Denki Oto Shop](https://denki-oto.weebly.com/))
+- 1x Pisugar S Plus battery assembly (5000mAh 5 volt 3 amp)
+- 1x shieldXl_battery case (see Models & Printing) `%!`
+- 1x pig tail JST-PH 2.0 female header `%!`
+- M2.5 bolts
+  - 2x 20mm `%!`
+  - 3x 16mm `%!`
+  - 2x 12mm `%!`
+  - 2x 10mm `%!`
+  - 1x 9mm `*`
+- 2x M2.5 hex nuts *4x M2.5 hex nuts if using the `bottom with hex nut.stl` file.*
+- 2x M2.5 heat set inserts *None if using the `bottom with hex nut.stl` file.*
+- 3x M2.5 11mm f-f standoffs `*`
+- 3x encoder nuts + washers `*`
+- 3x encoder caps `*`
 
 *Items marked with `*` are included in the shieldXl kit from Denki Oto.*
 *Items marked with `%!` are included in the shieldXl battery kit on the Modbang shop.*
@@ -74,7 +76,7 @@ gcode and prusa slicer files can be found in `/prints`, stls in `/models`. Teste
 3. Place the pi sugar pcba against the bottom of the pi, make sure the spring loaded pin contacts are seated correctly.
 4. Using the bolts included with the pisugar, attach the pisugar to the pi
 5. Connect the battery to the pisugar pcba
-6. Ensure the dip switch on the bottom of the pi sugar board is set to `off`
+6. !!IMPORTANT!! Ensure the dip switch on the bottom of the pi sugar board is set to `off`
 7. Plug in the pi sugar to a charger (both usb-c and usb micro ports will charge the battery)
 
 <img src="images/assembled_no_case_running.JPG" width=49%>
@@ -127,8 +129,13 @@ gcode and prusa slicer files can be found in `/prints`, stls in `/models`. Teste
 
 <img src="images/assembled_1.JPG" width=49%>
 
-## Troubleshooting
+## Troubleshooting / FAQ
+
+### Battery turns on but no leds on the pi turn on
+
+Double check soldering on the pig tail extension. If the connection isn't solid, boot up behavior can be intermittent or non-functional.
 
 ### Battery and red led on pi turns on but norns doesn't boot
 
 Double check that the micro sd card is inserted into the pi correctly.
+
