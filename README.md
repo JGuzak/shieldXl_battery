@@ -4,7 +4,11 @@ A case and internal battery mod for the [shieldXl](https://github.com/okyeron/sh
 
 <img src="images/promo_1.JPG" width=100%>
 
-*DISCLAIMER: This mod is not supported by Denki Oto and they are not responsible for assisting with assembly or troubleshooting.*
+## DISCLAIMERS
+
+This mod is not supported by Denki Oto and they are not responsible for assisting with assembly or troubleshooting.
+
+The USB and Ethernet ports are aligned for raspberry pi 3B+. Raspberry pi 4 will work but the cutouts will not be aligned correctly.
 
 ## Kits for this case are available of on the [Modbang shop](https://www.modbang.com/modbang-shop/shieldxlbatterykit).
 
