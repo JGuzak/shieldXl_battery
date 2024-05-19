@@ -10,7 +10,7 @@ This mod is not supported by Denki Oto and they are not responsible for assistin
 
 The USB and Ethernet ports are aligned for raspberry pi 3B+. Raspberry pi 4 will work but the cutouts will not be aligned correctly.
 
-## Kits for this case are available of on the [Modbang shop](https://www.modbang.com/modbang-shop/shieldxlbatterykit).
+## Kits for the Pi 3B+ flavor of this case are available of on the [Modbang shop](https://www.modbang.com/modbang-shop/shieldxlbatterykit).
 
 | Table of Contents |
 | - |
@@ -68,6 +68,10 @@ Toggle the power switch to turn on the battery (Blue light will illuminate and g
 STL made in reference to the original shieldXl case. shieldXl_battery design was made with [Blender](https://www.blender.org/) and [CAD Sketcher](https://www.cadsketcher.com/).
 
 gcode and prusa slicer files can be found in `/prints`, stls in `/models`. Tested with PLA on Prusa MK3 and Prusa MK4 printers.
+
+There are two flavors of top parts depending on the type of raspberry pi you use (3B+ or 4). Make sure to select the approriate stl.
+
+There is an alternative bottom part for using hex nuts instead of heat set inserts.
 
 ## Assembly
 
@@ -142,4 +146,3 @@ Double check soldering on the pig tail extension. If the connection isn't solid,
 ### Battery and red led on pi turns on but norns doesn't boot
 
 Double check that the micro sd card is inserted into the pi correctly.
-
