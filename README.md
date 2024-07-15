@@ -30,6 +30,7 @@ Referenced model was designed by CarlosUnch, John Park and Steven Noreyko.
 Project inspiration from Peter Kassel
 FAQ/troubleshooting contributions:
 - Moneo
+- Teamac
 
 ## Use
 
@@ -39,7 +40,7 @@ Toggle the power switch to turn on the battery (Blue light will illuminate and g
 
 <img src="images/bom.JPG" width=80%>
 
-- 1x assembled shieldxl `*` ([bom](https://github.com/okyeron/shieldXL/tree/main/bom) for the shieldXl is available over on GitHub and kits are available at the [Denki Oto Shop](https://denki-oto.weebly.com/))
+- 1x assembled shieldxl `*` ([bom](https://github.com/okyeron/shieldXL/tree/main/bom) for the shieldXl is available over on GitHub and kits are available at the [Denki Oto Shop](http://www.denki-oto.com/))
 - 1x Pisugar S Plus battery assembly (5000mAh 5 volt 3 amp)
 - 1x shieldXl_battery case (see Models & Printing) `%!`
 - 1x pig tail JST-PH 2.0 female header `%!`
@@ -84,7 +85,7 @@ There is an alternative bottom part for using hex nuts instead of heat set inser
 3. Place the pi sugar pcba against the bottom of the pi, make sure the spring loaded pin contacts are seated correctly.
 4. Using the bolts included with the pisugar, attach the pisugar to the pi
 5. Connect the battery to the pisugar pcba
-6. !!IMPORTANT!! Ensure the dip switch on the bottom of the pi sugar board is set to `off`
+6. *!!IMPORTANT!!* Ensure the auto startup dip switch on the bottom of the pi sugar board is set to `off`
 7. Plug in the pi sugar to a charger (both usb-c and usb micro ports will charge the battery)
 
 <img src="images/assembled_no_case_running.JPG" width=49%>
@@ -146,3 +147,9 @@ Double check soldering on the pig tail extension. If the connection isn't solid,
 ### Battery and red led on pi turns on but norns doesn't boot
 
 Double check that the micro sd card is inserted into the pi correctly.
+
+### Pi powers up no norns display
+
+Check that `Auto startup` is set to off.
+
+<img src="images/startup_dip_switch.JPG" width=80%>
